@@ -12,7 +12,7 @@ Mainly used by [GameText](../functions/GameTextForPlayer), [GameTextForAll](../f
 :::caution
 
 Attempting to show one of this widgets to a PC player will show either some corrupted text or a error saying there's a mismatch in the tildes in the text.
-When it shows the corrupted text, the PC client appears to try to find the resource for the widget, but fails since it doesn't exits.
+When it shows the corrupted text, the PC client appears to try to find the resource for the widget, but fails since it doesn't exists.
 
 :::
 
