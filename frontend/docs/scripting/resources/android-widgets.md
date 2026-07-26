@@ -9,19 +9,17 @@ Mainly used by [GameText](../functions/GameTextForPlayer), [GameTextForAll](../f
 
 ---
 
-:::caution
+Widgets can be used mid-text in a GameText or TextDraw.
 
-Attempting to show one of this widgets to a PC player will show either some corrupted text or a error saying there's a mismatch in the tildes in the text.
-When it shows the corrupted text, the PC client appears to try to find the resource for the widget, but fails since it doesn't exists.
-
-:::
+To use, simply place `~m~~code~` in the middle of the text, replacing `code` with one of the codes listed below.
 
 :::caution
 
-Due do inconsistencies in how Android Clients are implemented, it's possible not all widgets will be available for all clients, or even show for some clients, but not for others.
+The codes only render correctly on android clients.
 
 :::
 
+## Code list
 
 | Code | Image | Notes |
 | --- | --- | --- |
@@ -149,3 +147,19 @@ Due do inconsistencies in how Android Clients are implemented, it's possible not
 | widget_video_poker_exit |![](https://assets.open.mp/widgets/widget_video_poker_exit.png) | |
 | widget_zoom_in |![](https://assets.open.mp/widgets/widget_zoom_in.png) | |
 | widget_zoom_out |![](https://assets.open.mp/widgets/widget_zoom_out.png) | Did not load on Thunder Client |
+
+
+## Notes
+
+:::caution
+
+Attempting to show one of this widgets to a PC player will show either some corrupted text or a error saying there's a mismatch in the tildes in the text.
+When it shows the corrupted text, the PC client appears to try to find the resource for the widget, but fails since it doesn't exists.
+
+:::
+
+:::caution
+
+Due do inconsistencies in how Android Clients are implemented, it's possible not all widgets will be available for all clients, or even show for some clients, but not for others.
+
+:::
